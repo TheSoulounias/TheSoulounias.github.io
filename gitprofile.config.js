@@ -112,6 +112,13 @@ const config = {
       imageUrl: 'https://github.com/TheSoulounias/TheSoulounias/blob/5a02b1fc4bc2ac386a305397a98f7e11ac9ee373/firefox_Qzp1xxVxvK.png?raw=true',
       link: 'https://www.kaggle.com/code/themelissoulounias/nba-stat-scrape-and-analysis',
     },
+    {
+      title: 'Tableau Public Vizzs',
+      description:
+        'Examples of my Tableau visuals open for public viewing.',
+      imageUrl: 'https://github.com/TheSoulounias/TheSoulounias/blob/59db611be77d30d4bc0cdfdd20fa27826fb221d4/firefox_W31JzCYNkF.png?raw=true',
+      link: 'https://public.tableau.com/app/profile/themelis.soulounias/vizzes',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
 //  blog: {
