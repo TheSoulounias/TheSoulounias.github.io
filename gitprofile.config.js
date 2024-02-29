@@ -65,7 +65,7 @@ const config = {
       to: 'March 2023',
       companyLink: 'https://drpa.org',
     },
-        {
+    {
       company: 'ABKaelin, LLC',
       position: 'Environmental Health Safety Specialist',
       from: 'March 2018',
