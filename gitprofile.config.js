@@ -73,7 +73,7 @@ const config = {
       companyLink: 'https://www.abkaelin.com/',
     },
     {
-      company: 'Dr. Ma's Materials Research Group, University of South Florida',
+      company: 'Dr. Ma\'s Materials Research Group, University of South Florida',
       position: 'Undergraduate Researcher',
       from: 'January 2015',
       to: 'January 2016',
