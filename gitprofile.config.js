@@ -37,7 +37,7 @@ const config = {
     'SQL',
     'Python',
     'Linux',
-    'Microsoft PowerApps',
+    'Data Analysis',
     'R Programming',
     'Git',
     'Pandas',
@@ -65,6 +65,28 @@ const config = {
       to: 'March 2023',
       companyLink: 'https://drpa.org',
     },
+        {
+      company: 'ABKaelin, LLC',
+      position: 'Environmental Health Safety Specialist',
+      from: 'March 2018',
+      to: 'September 2019',
+      companyLink: 'https://www.abkaelin.com/',
+    },
+    {
+      company: 'Dr. Ma's Materials Research Group, University of South Florida',
+      position: 'Undergraduate Researcher',
+      from: 'January 2015',
+      to: 'January 2016',
+      companyLink: 'https://www.usf.edu/research/',
+    },
+    {
+      company: 'Corcon Inc.',
+      position: 'Safety Officer',
+      from: 'July 2011',
+      to: 'November 2016',
+      companyLink: 'https://drpa.org',
+    },
+
   ],
   /* certifications: [
     {
