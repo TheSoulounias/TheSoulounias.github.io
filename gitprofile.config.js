@@ -100,14 +100,14 @@ const config = {
     {
       institution: 'College of Arts and Sciences, University of South Florida',
       degree: 'Bachelor of Science, Chemistry',
-    //  from: '2015',
-   //   to: '2019',
+      from: '----', //from: '2015',
+      to: '----', // to: '2019',
     },
     {
       institution: 'College of Arts and Sciences, Saint Petersburg College',
       degree: 'Associate of Science, Biomedical',
-    //  from: '2012',
-    //  to: '2014',
+      from: '----', // from: '2012',
+      to: '----', // to: '2014',
     },
   ],
 
