@@ -4,14 +4,14 @@ const config = {
   github: {
     username: 'TheSoulounias', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 4, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ['TheSoulounias','git_test','odin-recipes','javascript-exercises','rock-paper-scissors','odin-landing-page-project','css-exercises'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'themelis-soulounias',
+    linkedin: 'tom-soulounias',
     //twitter: 'arif_szn',
    // mastodon: 'arifszn@mastodon.social',
    // facebook: '',
