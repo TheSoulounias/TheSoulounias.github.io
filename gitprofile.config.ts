@@ -162,7 +162,36 @@ const CONFIG = {
       to: '----', // to: '2014',
     },
   ],
-
+externalProjects: [
+    {
+      title: 'Bellabeat Case Study',
+      description:
+        'Study of fitbit data to draw insights and give data based reccomendations to womens health company Bellabeat, allowing them to make data driven decisions. Capstone project for the Google Data Analytics Professional Certificate.',
+      imageUrl: 'https://github.com/TheSoulounias/TheSoulounias/blob/001c689023038c7087f65df39940b060b3793961/firefox_3YOfGgEY7P.png?raw=true',
+      link: 'https://www.kaggle.com/code/themelissoulounias/themelis-bellabeat-case-study-project',
+    },
+    {
+      title: 'Revenue Map',
+      description:
+        'A short tutorial on placing data on a map. To help decision makers visualize areas for ad targeting',
+      imageUrl: 'https://github.com/TheSoulounias/TheSoulounias/blob/ab380cb07338a415db36793373d996f87c43e6b5/firefox_H55SYMnpi0.png?raw=true',
+      link: 'https://www.kaggle.com/themelissoulounias/revenue-map',
+    },
+    {
+      title: 'NBA Stat Scrape and Analysis',
+      description:
+        'Ongoing project to scrape and analyze leader stats from the NBA website.',
+      imageUrl: 'https://github.com/TheSoulounias/TheSoulounias/blob/5a02b1fc4bc2ac386a305397a98f7e11ac9ee373/firefox_Qzp1xxVxvK.png?raw=true',
+      link: 'https://www.kaggle.com/code/themelissoulounias/nba-stat-scrape-and-analysis',
+    },
+    {
+      title: 'Tableau Public Vizzs',
+      description:
+        'Examples of my Tableau visuals open for public viewing.',
+      imageUrl: 'https://github.com/TheSoulounias/TheSoulounias/blob/59db611be77d30d4bc0cdfdd20fa27826fb221d4/firefox_W31JzCYNkF.png?raw=true',
+      link: 'https://public.tableau.com/app/profile/themelis.soulounias/vizzes',
+    },
+  ],
  /* publications: [
     {
       title: 'Publication Title',
