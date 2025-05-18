@@ -139,6 +139,7 @@ const CONFIG = {
       to: 'November 2016',
       companyLink: 'https://drpa.org',
     },
+  ],
   /* certifications: [
     {
       name: 'Lorem ipsum',
