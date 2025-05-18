@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'TheSoulounias', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -17,10 +17,10 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['TheSoulounias','git_test','odin-recipes','javascript-exercises','rock-paper-scissors','odin-landing-page-project','css-exercises'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -57,86 +57,112 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'themelis-soulounias',
+    //twitter: 'arif_szn',
+   // mastodon: 'arifszn@mastodon.social',
+   // facebook: '',
+   // instagram: '',
+   // youtube: '', // example: 'pewdiepie'
+   // dribbble: '',
+   // behance: '',
+   // medium: 'arifszn',
+   // dev: 'arifszn',
+   // stackoverflow: '', // example: '1/jeff-atwood'
+   // skype: '',
+   // telegram: '',
+   // website: 'https://arifszn.com',
+   // phone: '',
+    email: 'TheSoulounias@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+   skills: [
+    'Excel',
+    'SQL',
+    'Python',
+    'Linux',
+    'Data Analysis',
+    'R Programming',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Pandas',
+    
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'David Nelson Construction Co',
+      position: 'Safety Director',
+      from: 'October 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://nelson-construction.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Certified Ceramics',
+      position: 'Business and Marketing Analyst',
+      from: 'August 2023',
+      to: 'Present',
+      companyLink: 'https://certifiedceramics.com',
     },
-  ],
-  certifications: [
+    {
+      company: 'Skanska',
+      position: 'EHS Manager',
+      from: 'March 2023',
+      to: 'October 2023',
+      companyLink: 'https://skanska.com',
+    },
+    {
+      company: 'Delaware River Port Authority',
+      position: 'Safety Specialist',
+      from: 'September 2019',
+      to: 'March 2023',
+      companyLink: 'https://drpa.org',
+    },
+    {
+      company: 'ABKaelin, LLC',
+      position: 'Environmental Health Safety Specialist',
+      from: 'March 2018',
+      to: 'September 2019',
+      companyLink: 'https://www.abkaelin.com/',
+    },
+    {
+      company: 'Dr. Ma\'s Materials Research Group, University of South Florida',
+      position: 'Undergraduate Researcher',
+      from: 'January 2015',
+      to: 'January 2016',
+      companyLink: 'https://www.usf.edu/research/',
+    },
+    {
+      company: 'Corcon Inc.',
+      position: 'Safety Officer',
+      from: 'July 2011',
+      to: 'November 2016',
+      companyLink: 'https://drpa.org',
+    },
+  /* certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ],
-  educations: [
+  ], */
+  education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'College of Arts and Sciences, University of South Florida',
+      degree: 'Bachelor of Science, Chemistry',
+      from: '----', //from: '2015',
+      to: '----', // to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'College of Arts and Sciences, Saint Petersburg College',
+      degree: 'Associate of Science, Biomedical',
+      from: '----', // from: '2012',
+      to: '----', // to: '2014',
     },
   ],
-  publications: [
+
+ /* publications: [
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -155,13 +181,13 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-  ],
+  ], */
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+ // blog: {
+  //  source: 'dev', // medium | dev
+ //   username: 'arifszn', // to hide blog section, keep it empty
+ //   limit: 2, // How many articles to display. Max is 10.
+//  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -234,12 +260,12 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+/*  footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
-
+*/
   enablePWA: true,
 };
 
